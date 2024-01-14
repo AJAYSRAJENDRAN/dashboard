@@ -1,0 +1,96 @@
+.Dashboard-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 8%;
+  height: 5%;
+  width: 13%;
+  border-radius: 10% 0 0 10%;
+  border: none;
+
+  display: inline;
+}
+.Support-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 8%;
+  height: 5%;
+  width: 13%;
+  border-radius: 10% 0 0 10%;
+  border: none;
+  background-color: rgb(3, 3, 30);
+  color: white;
+  display: inline;
+}
+.Plugins-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 8%;
+  height: 5%;
+  width: 13%;
+  border-radius: 10% 0 0 10%;
+  border: none;
+  background-color: rgb(3, 3, 30);
+  color: white;
+  display: inline;
+}
+.Help-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 8%;
+  height: 5%;
+  width: 13%;
+  border-radius: 10% 0 0 10%;
+  border: none;
+  background-color: rgb(3, 3, 30);
+  color: white;
+  display: inline;
+}
+
+.Logout-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 97%;
+  left: 6%;
+  height: 6%;
+  width: 17%;
+
+  border: none;
+  background-color: white;
+  color: red;
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  .Dashboard-btn,
+  .Support-btn,
+  .Plugins-btn,
+  .Help-btn {
+    width: 80%; /* Adjust the width as needed for smaller screens */
+    left: 50%; /* Center horizontally on smaller screens */
+    top: auto;
+    transform: translate(-50%, 0);
+    margin-bottom: 10px; /* Add margin between buttons for better spacing */
+  }
+}
+@media screen and (max-width: 480px) {
+  .Dashboard-btn,
+  .Support-btn,
+  .Plugins-btn,
+  .Help-btn {
+    width: 90%; /* Adjust the width as needed for even smaller screens */
+    margin-bottom: 8px; /* Further reduce margin for smaller spacing */
+  }
+}
+@media screen and (max-width: 320px) {
+  .Dashboard-btn,
+  .Support-btn,
+  .Plugins-btn,
+  .Help-btn {
+    width: 95%; /* Adjust the width as needed for even smaller screens */
+    margin-bottom: 6px; /* Further reduce margin for even smaller spacing */
+  }
+}
